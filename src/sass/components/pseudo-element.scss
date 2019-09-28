@@ -1,0 +1,8 @@
+.second-line::after {
+    display: block;
+    content: "";
+    margin: 40px auto 65px;
+    height: 11px;
+    width: 11px;
+    background-color: #ff6c00;
+ }

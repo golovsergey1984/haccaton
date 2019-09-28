@@ -1,0 +1,17 @@
+.card {
+    width: 224px;
+    height: 414px;
+    display: block;
+
+    &__picture {
+        display: block;
+        margin: auto;
+    }
+    &__text-wrapper {
+        margin-left: 27px;
+    }
+}
+.card-background {
+    height: 450px;
+
+}

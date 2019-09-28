@@ -1,4 +1,16 @@
 /*
    Import partials below
 */
-@import './normalize';
+@import 'normalize';
+@import 'components/pseudo-element';
+@import 'components/card';
+@import 'components/awards';
+
+
+// временные переменные
+.container {
+   p, h2, h3 {
+      margin: 0;
+      padding: 0;
+   }
+}
