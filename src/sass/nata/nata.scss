@@ -24,11 +24,13 @@
 }
 
 .text {
+    font-family: $font-primary;
+    font-weight: 500;
     font-size: 16px;
     color: #6b6f7a;
     text-align: center;
 }
 
 .text-span {
-    color: #17ecff;
+    color: $primary-lightblue-color;
 }
