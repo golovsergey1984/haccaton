@@ -1,5 +1,6 @@
 .header {
   max-width: 767px;
+  padding-top: 34px;
 
   &__one {
     display: flex;
@@ -10,6 +11,13 @@
     font-family: 'Acrom';
     font-weight: 800;
     text-transform: uppercase;
+    color: #1b2436;
+    padding: 35px 0 25px 0;
+    line-height: 1.4;
+    width: 220px;
+  }
 
+  $__text {
+    
   }
 }
