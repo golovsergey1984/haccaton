@@ -1,0 +1,58 @@
+1. Общие
+list
+
+
+Блоки:
+
+1. container-fluid
+
+2. container
+
+3. banner
+
+4. page-header
+   page-header__title
+   page-header__subtitle
+   page-header__btn
+
+5. page-nav
+
+6. site-logo
+    site-logo__img
+
+7. site-navigation
+    site-navigation__item
+    site-navigation__link
+    site-navigation__icon
+
+8. section
+    section__title
+    section__subtitle
+    section__text
+
+9. service
+    service__item
+    service__title
+    service__text
+
+10. employee
+    employee__img
+    employee__grad
+    employee__socials
+    employee__name
+    employee__position
+
+11. socials 
+    socials__item
+    socials__icon
+
+12. footer
+    footer__line
+    footer__wrapper
+    fotter__text
+    footer__text--color
+    footer__form
+    footer__input
+    footer__btn
+
+    
