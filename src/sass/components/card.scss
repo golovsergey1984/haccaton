@@ -10,25 +10,49 @@
     &__text-wrapper {
         padding-left: 27px;
         padding-top: 35px;
+        padding-bottom: 25px;
         background-color: aqua;
+        text-align: start;
     }
-    position: absolute;
-    right: 0;
+    position: relative;
+    box-shadow: 15px 15px 32px 32px #ececec;
+
     &::after {
-        display: block;
         content: "";
         margin: 40px auto 65px;
         height: 11px;
         width: 11px;
         background-color: #ff6c00;
-        left: 0px;
-        top: -60px;
+        left: 0;
+        top: -62px;
         position: absolute;
     }
+    &__image {
+        display: block;
+        margin: auto;
+rotate: 45;
+    }
+}
+.cards {
+    display: flex;
+    justify-content: space-between;
 }
 
 .card-background {
     height: 450px;
-    background-image: url(https://github.com/golovsergey1984/haccaton/blob/master/src/images/img-01_.png?raw=true);
+    background-color: green;
     background-repeat: no-repeat;
+    display: flex;
+    justify-content: flex-end;
 }
+.card::before {
+    counter-increment: section;
+    content: "" counter(section);
+    /* text-align: left; */
+    left: 0;
+    top: -32px;
+    position: absolute;
+    font-size: 53px;
+    z-index: -2;
+}
+    
