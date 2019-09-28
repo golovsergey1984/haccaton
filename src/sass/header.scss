@@ -17,7 +17,13 @@
     width: 220px;
   }
 
-  $__text {
-    
+  &__text {
+    color: #6b6f7a;
+    width: 200px;
   }
+}
+
+.bold-text {
+  font-weight: bold;
+  color: #1b2436;
 }
