@@ -1,16 +1,16 @@
-/*
-   Import partials below
-*/
+
 @import 'normalize';
 @import 'components/pseudo-element';
 @import 'components/card';
 @import 'components/awards';
 
+@import 'helpers/common';
+@import 'helpers/fonts';
 
-// временные переменные
-.container {
-   p, h2, h3 {
-      margin: 0;
-      padding: 0;
-   }
-}
+@import 'button';
+@import 'banner';
+@import 'header';
+
+@import 'helpers/variables';
+@import 'media';
+

@@ -8,10 +8,27 @@
         margin: auto;
     }
     &__text-wrapper {
-        margin-left: 27px;
+        padding-left: 27px;
+        padding-top: 35px;
+        background-color: aqua;
+    }
+    position: absolute;
+    right: 0;
+    &::after {
+        display: block;
+        content: "";
+        margin: 40px auto 65px;
+        height: 11px;
+        width: 11px;
+        background-color: #ff6c00;
+        left: 0px;
+        top: -60px;
+        position: absolute;
     }
 }
+
 .card-background {
     height: 450px;
-
+    background-image: url(https://github.com/golovsergey1984/haccaton/blob/master/src/images/img-01_.png?raw=true);
+    background-repeat: no-repeat;
 }
