@@ -1,10 +1,9 @@
 .header {
-  max-width: 767px;
   padding-top: 34px;
 
   &__one {
     display: flex;
-    padding-left: 20px;
+    padding-left: 30px;
   }
 
   &__title {
@@ -27,3 +26,6 @@
   font-weight: bold;
   color: #1b2436;
 }
+
+@import './header-480px.scss';
+@import './header-960px.scss';

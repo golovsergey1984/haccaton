@@ -2,13 +2,10 @@
    Import partials below
 */
 @import './normalize';
-@import './helpers/common';
 @import './helpers/fonts';
+@import './helpers/common';
+@import './helpers/variables';
 
 //components
-@import './button';
-@import './banner';
-@import './header';
-
-@import './helpers/variables';
-@import './media';
+@import './banner/banner';
+@import './header/header';
