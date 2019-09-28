@@ -1,0 +1,15 @@
+.header {
+  max-width: 767px;
+
+  &__one {
+    display: flex;
+    padding-left: 20px;
+  }
+
+  &__title {
+    font-family: 'Acrom';
+    font-weight: 800;
+    text-transform: uppercase;
+
+  }
+}
