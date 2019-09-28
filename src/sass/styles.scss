@@ -1,16 +1,18 @@
+/*
+   Import partials below
+*/
+@import './normalize';
+@import './helpers/common';
+@import './helpers/fonts';
+@import './helpers/variables';
 
-@import 'normalize';
-@import 'components/pseudo-element';
-@import 'components/card';
-@import 'components/awards';
+//components
 
-@import 'helpers/common';
-@import 'helpers/fonts';
+@import './button';
+@import './banner';
+@import './header';
 
-@import 'button';
-@import 'banner';
-@import 'header';
 
-@import 'helpers/variables';
-@import 'media';
+@import './media';
+@import './component/test';
 
