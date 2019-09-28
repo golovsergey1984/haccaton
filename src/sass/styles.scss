@@ -2,4 +2,16 @@
    Import partials below
 */
 @import './normalize';
+@import './helpers/common';
+@import './helpers/fonts';
+
+//components
+@import './button';
+@import './banner';
+
+@import './helpers/variables';
+@import './media';
+
+@import './header';
 @import './nata/nata';
+

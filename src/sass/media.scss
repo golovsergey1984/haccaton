@@ -1,0 +1,22 @@
+/* Стилизация под расширение 768px */
+@media screen and (min-width: 480px) {
+    body {
+     
+      min-width: 480px;
+      max-width: 960px; 
+  
+    }
+
+
+/* Стилизация под расширение 1440px */
+@media screen and (min-width: 961px) {
+    body {
+  
+      min-width: 961px; /* 943 */
+      max-width: 1440px; /* 961 */
+    }
+
+
+    
+
+  
