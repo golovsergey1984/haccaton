@@ -2,3 +2,10 @@
    Import partials below
 */
 @import './normalize';
+@import './helpers/common';
+@import './helpers/fonts';
+
+//components
+@import './button';
+@import './banner';
+@import './header';
