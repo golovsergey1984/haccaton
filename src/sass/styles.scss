@@ -4,13 +4,16 @@
 @import './normalize';
 @import './helpers/common';
 @import './helpers/fonts';
+@import './helpers/variables';
 
 //components
+
 @import './button';
 @import './banner';
 
-@import './helpers/variables';
+
 @import './media';
+// @import './component/test';
 
 @import './header';
 @import './nata/nata';
