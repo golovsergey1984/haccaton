@@ -1,29 +1,42 @@
 /* Стилизация под расширение от 768px */
 @media screen and (min-width: 768px) {
   .cards {
+    display: flex;
     flex-direction: row;
     justify-content: center;
-
   }
-    .first-card {
-      height: 465px;
+ .card__picture {
+  &--first {
+    transform: translate(-7px,60px);
+    }
+  &--second {
+    transform: translate(-6px,13px);
+    }
+  &--third {
+    transform: translate(-11px,23px);
+    }
   }
   .card-wrapper {
     margin-right: 20px;
   }
-    
-}
-.job {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  &__title {
-      width: 100%;
+  .card-background {
+    height: 100%;
   }
-  &__descr {
+  .job {
+    display: flex;
+    flex-direction: column;
+    &__title {
+      width: 100%;
+      font-size: 36px;
+    }
+    &__descr {
       width: 100%;
     }
   }
+  .awards__title {
+    font-size: 24px;
+  }
+}
 
 /* Стилизация под расширение от 1200px */
 @media screen and (min-width: 1200px) {
