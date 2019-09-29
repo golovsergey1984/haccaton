@@ -1,13 +1,14 @@
 .wrapper {
-  height: 791px;
   background: radial-gradient(circle, $bgcolor-darkblue, $bgcolor-lightblue);
-  
+  display: flex;
+  justify-content: center;
+  padding-bottom: 69px;
 }
 
 .box {
  padding-left: 61px;
  padding-right: 61px;
- margin: auto auto;
+ 
 }
 
 
@@ -28,7 +29,7 @@
     }
   }
   &__box {
-    width: 256px;
+    max-width: 256px;
     font-family: $font-primary;
     color: $primary-white-color;
     font-size: 14px;
@@ -55,10 +56,10 @@
 
 /* Стилизация под расширение 768px */
 @media (min-width: 768px) and (max-width: 1200px) {
-  .wrapper {
-    height: 589px;
-  }
 
+  .wrapper {
+    padding-bottom: 86px;
+  }
 
   .list {
     &__title {
@@ -83,7 +84,9 @@
 
  /* Стилизация под расширение 768px */
 @media (min-width: 1200px) {
-  .wrapper {height: 470px;}
+  .wrapper {
+    padding-bottom: 66px;
+  }
   .box {
     display: flex;
     flex-wrap: nowrap;
