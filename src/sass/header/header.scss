@@ -1,0 +1,36 @@
+.header {
+  padding-top: 34px;
+  width: 320px;
+
+  &__one {
+    display: flex;
+    padding-left: 20px;
+  }
+
+  &__title {
+    font-family: $font-primary;
+    font-weight: 800;
+    text-transform: uppercase;
+    color: #1b2436;
+    padding: 35px 0 25px 0;
+    line-height: 1.4;
+    width: 220px;
+  }
+
+  &__text {
+    color: #6b6f7a;
+    max-width: 200px;
+    margin-bottom: 70px;
+    font-family: $font-primary;
+    font-weight: 400;
+    font-size: 14px;
+  }
+}
+
+.bold-text {
+  font-weight: 800;
+  color: #1b2436;
+}
+
+@import './header-768px.scss';
+@import './header-960px.scss';

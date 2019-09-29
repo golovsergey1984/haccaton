@@ -1,0 +1,20 @@
+@media (min-width: 960px) {
+  .header {
+    display: flex;
+    justify-content: center;
+
+    &__one {
+      display: flex;
+      padding-top: 40px;
+    }
+
+    &__title {
+      width: 280px;
+      font-size: 24px;
+    }
+
+    &__text {
+      width: 266px;
+    }
+  }
+}
