@@ -1,5 +1,8 @@
 .header {
   padding-top: 34px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 
   &__one {
     display: flex;
