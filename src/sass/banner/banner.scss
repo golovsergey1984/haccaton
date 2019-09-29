@@ -12,6 +12,7 @@
     background-image: url(../images/mobile-image-top.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: bottom center;
   }
 
   &__title {
@@ -51,5 +52,5 @@
   box-shadow: 0 2px 0 0 #fff;
 }
 
-@import './banner480px.scss';
+@import './banner768px.scss';
 @import './banner960px.scss';
