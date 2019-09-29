@@ -21,7 +21,7 @@
         width: 110px;
         line-height: 1.3;
         padding-bottom: 25px;
-        font-family: 'Acrom';
+        font-family: $font-primary;
         font-weight: 800;
     }
     &__descr {
@@ -49,7 +49,7 @@
         left: 0;
         top: -62px;
         position: absolute;
-        font-family: 'Acrom';
+        font-family: $font-primary;
         font-weight: 800;
     }
 }
@@ -71,7 +71,6 @@ car
     justify-content: flex-end;
 }
 .card::before {
-    font-family: sans-serif;
     counter-increment: section;
     content: "0" counter(section) "_";
     left: 25px;
@@ -80,7 +79,7 @@ car
     font-size: 70px;
     z-index: -2;
     color: #f6f6f6;
-    font-family: 'Acrom', sans-serif;
+    font-family: $font-primary;
     font-weight: 600;
 }
     .card-wrapper {
