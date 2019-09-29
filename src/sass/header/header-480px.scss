@@ -2,21 +2,14 @@
   .header {
     padding-top: 34px;
     padding-right: 20px;
-    // height: 550px;
     display: flex;
-    justify-content: space-between;
-    
+    justify-content: center;
+
     &__one {
       display: flex;
     }
 
     &__title {
-      font-family: 'Acrom';
-      font-weight: 800;
-      text-transform: uppercase;
-      color: #1b2436;
-      padding: 35px 0 25px 0;
-      line-height: 1.4;
       width: 150px;
     }
 
@@ -27,10 +20,4 @@
       padding-bottom: 90px;
     }
   }
-
-  .bold-text {
-    font-weight: bold;
-    color: #1b2436;
-  }
 }
-
