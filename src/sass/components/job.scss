@@ -1,0 +1,25 @@
+.job {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 75px;
+    &__title {
+        padding-bottom: 25px;
+        font-family: 'Acrom';
+        padding-top: 13px;
+        font-weight: 800;
+        font-size: 20px;
+        text-align: center;
+        width: 170px;
+    }
+    &__descr {
+        font-size: 16px;
+        width: 220px;
+        line-height: 25px;
+        font-weight: 700;
+        text-align: center;
+        font-family: 'Acrom';
+        font-weight: bold;
+        padding-bottom: 35px;
+      }
+}
