@@ -3,12 +3,16 @@
 
      .container {
         margin: 0 auto;
+    }
+
+    .container-wrap {
         display: flex;
         justify-content: center;
+        margin-bottom: 30px;
     }
     
     @media screen and (max-width: 767px) {
-        .container {
+        .container-wrap {
             max-width: 274px;
             flex-wrap: wrap;
         }
@@ -22,7 +26,7 @@
     }
     
     @media screen and (min-width: 769px) {
-        .container {
+        .container-wrap {
             max-width: 600px;
         }
         .card-mission {
@@ -60,7 +64,7 @@
     }
     
     @media screen and (min-width: 1200px) {
-        .container {
+        .container-wrap {
             max-width: 1200px;
             padding: 50px;
         }
