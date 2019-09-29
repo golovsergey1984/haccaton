@@ -1053,7 +1053,7 @@ html {
 
   .banner__image {
     height: 600;
-    background-image: url(../../images/tablet-image-top.jpg);
+    background-image: url(../images/tablet-image-top.jpg);
     background-repeat: no-repeat;
     background-size: cover;
   }
@@ -1180,7 +1180,7 @@ html {
 
   .banner__image {
     height: 600px;
-    background-image: url(../../images/landing-top.jpg);
+    background-image: url(../images/landing-top.jpg);
     background-repeat: no-repeat;
     background-size: cover;
   }
