@@ -1,0 +1,20 @@
+@media (min-width: 960px) and (max-width: 1440px) {
+  .header {
+    display: flex;
+    justify-content: center;
+
+    &__one {
+      display: flex;
+      padding-top: 60px;
+    }
+
+    &__title {
+      width: 266px;
+      font-size: 24px;
+    }
+
+    &__text {
+      width: 266px;
+    }
+  }
+}

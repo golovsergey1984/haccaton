@@ -1,0 +1,41 @@
+@media (min-width: 320px) {
+  .content-video-buttom {
+    width: 100%;
+  }
+  .video {
+    text-align: center;
+    margin: 75px auto 0;
+  }
+  .buttom-buttom {
+    text-align: center;
+    margin: 40px auto 0;
+    padding-bottom: 48px;
+  }
+  .video_p {
+    width: 82%;
+    height: 62%;
+  }
+}
+
+@media (min-width: 767px) {
+  .video {
+    margin-top: 90px;
+  }
+  .buttom-buttom {
+    margin-top: 66px;
+  }
+  .video_p {
+    width: 650px;
+    height: 385px;
+  }
+}
+@media (min-width: 1200px) {
+  .video {
+    margin-top: 90px;
+  }
+  .buttom-buttom {
+    margin-top: 66px;
+    margin-bottom: 97px;
+  }
+  
+}

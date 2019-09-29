@@ -1,0 +1,76 @@
+
+     /*mission.css*/
+
+     .container {
+        margin: 0 auto;
+    }
+
+    .container-wrap {
+        margin-bottom: 30px;
+    }
+    
+    @media screen and (max-width: 767px) {
+        .container-wrap {
+            max-width: 274px;
+            flex-wrap: wrap;
+        }
+    }
+    
+    .card-mission {
+        width: 274px;
+        display: flex;
+        flex-direction: column;
+        // margin: 1rem;
+    }
+    
+    @media screen and (min-width: 769px) {
+        .container-wrap {
+            display: flex;
+            justify-content: center;
+            max-width: 600px;
+        }
+        .card-mission {
+            margin: 2rem;
+        }
+    }
+    
+    .card-mission-title {
+        margin-top: 30px;
+        font-family: $font-primary;
+        color: $primary-darkblue-color;
+        font-weight: 800;
+        font-size: 24px;
+        text-transform: uppercase;
+    }
+    
+    .card-mission-subtitle {
+        margin-top: 30px;
+        font-family: $font-primary;
+        color: $primary-darkblue-color;
+        font-weight: 800;
+        font-size: 14px;
+    }
+    
+    .history {
+        color: $primary-orange-color;
+    }
+    
+    .text-mission {
+        margin-top: 20px;
+        font-family: $font-primary;
+        color: $primary-lightgrey-color;
+        font-weight: 400;
+        font-size: 14px;
+    }
+    
+    @media screen and (min-width: 1200px) {
+        .container-wrap {
+            max-width: 1200px;
+            padding: 50px;
+        }
+    
+        .card-mission {
+            width: 402px;
+            margin: 50px 80px 50px 40px;
+        }
+    }
