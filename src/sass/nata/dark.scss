@@ -9,7 +9,7 @@
   flex-direction: column;
   justify-content: space-evenly;
   align-items: center;
-  background-image: url(/images/nata/tablet-middle-2.jpg);
+  background-image: url(../images/nata/tablet-middle-2.jpg);
   background-position: center;
 }
 
@@ -24,14 +24,14 @@
   }
   .dark {
     padding: 88px 30px;  
-    background-image: url(/images/nata/tablet-middle-2.jpg);
+    background-image: url(../images/nata/tablet-middle-2.jpg);
   }
 }
 
 @media screen and (min-width: 1200px) {
     .dark {
         padding: 98px 65px;  
-        background-image: url(/images/nata/landing-middle-2.jpg);
+        background-image: url(../images/nata/landing-middle-2.jpg);
     }
     .text-wrap {
         width: 691px;
