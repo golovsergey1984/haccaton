@@ -7,7 +7,6 @@
       background-image: url(../../images/tablet-image-top.jpg);
       background-repeat: no-repeat;
       background-size: cover;
-      background-position-y: 20%;
     }
 
     &__title {
@@ -24,6 +23,7 @@
 
     &__text {
       width: 280px;
+      padding-bottom: 360px;
     }
   }
 }
