@@ -18,8 +18,10 @@
   text-transform: uppercase;
   font-weight: bold;
   box-shadow: 8px 8px 70px 0 rgba(225, 107, 29, 0.7);
+  text-decoration: none;
 }
 .button:hover {
   background-color: transparent;
   color: $primary-blue-color;
+  text-decoration: none;
 }
