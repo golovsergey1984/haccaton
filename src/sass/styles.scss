@@ -2,6 +2,12 @@
    Import partials below
 */
 @import './normalize';
+
+@import './helpers/variables.scss';
+@import './media_video';
+@import './button';
+
+
 @import './helpers/common';
 @import './helpers/fonts';
 @import './helpers/variables';
@@ -11,7 +17,17 @@
 
 @import './button';
 @import './banner';
+
+
+
 @import './header';
+@import './nata/dark';
+@import './nata/mission';
+
+@import './header';
+@import './search/search';
 @import './components/footer';
 @import './components/job';
 @import './media-awards';
+
+
