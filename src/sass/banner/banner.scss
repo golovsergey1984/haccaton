@@ -5,17 +5,18 @@
 }
 
 .banner {
-  max-width: 767px;
+  color: #000;
 
   &__image {
     height: 450px;
     background-image: url(../images/mobile-image-top.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: bottom;
   }
 
   &__title {
-    font-family: 'Acrom-Bold';
+    font-family: $font-primary;
     font-weight: bold;
     font-size: 20px;
     padding-bottom: 30px;
@@ -34,7 +35,7 @@
   &__text {
     // width: 170px;
     font-size: 14px;
-    font-family: 'Acrom';
+    font-family: $font-primary;
     font-weight: 400;
     line-height: 1.4;
     color: #6b6f78;
@@ -42,8 +43,14 @@
 }
 
 .site-logo {
-  padding-top: 30px;
   text-align: center;
-  padding-bottom: 40px;
+  margin-bottom: 35px;
+  padding-top: 30px;
 }
 
+.site-logo a:hover {
+  box-shadow: 0 2px 0 0 #fff;
+}
+
+@import './banner768px.scss';
+@import './banner960px.scss';

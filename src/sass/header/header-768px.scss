@@ -1,0 +1,24 @@
+@media (min-width: 768px) {
+  .header {
+    padding-top: 34px;
+    padding-right: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+    &__one {
+      display: flex;
+    }
+
+    &__title {
+      width: 150px;
+    }
+
+    &__text {
+      color: #6b6f7a;
+      width: 150px;
+      line-height: 1.5;
+      padding-bottom: 90px;
+    }
+  }
+}

@@ -2,6 +2,11 @@
    Import partials below
 */
 @import './normalize';
+<<<<<<< HEAD
+@import './helpers/fonts';
+@import './helpers/common';
+@import './helpers/variables';
+=======
 
 @import './helpers/variables.scss';
 @import './media_video';
@@ -30,4 +35,8 @@
 @import './components/job';
 @import './media-awards';
 
+>>>>>>> master
 
+//components
+@import './banner/banner';
+@import './header/header';
